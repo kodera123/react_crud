@@ -1,24 +1,11 @@
 # README
+個人的なReact + Redux + Rails のアプリケーション
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+色々挑戦的なことします。（基礎はまだない）
 
-Things you may want to cover:
+Redux が次のボスです
+
+よくないコードあったら指摘ください。（他力本願）
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2.4.1
