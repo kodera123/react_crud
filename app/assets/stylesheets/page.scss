@@ -1,3 +1,39 @@
 // Place all the styles related to the page controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+hr {
+  margin: 50px auto;
+}
+.container{
+  width: 80%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+h2 {
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  margin-top: 50px
+
+}
+
+h4 {
+  position: relative;
+  padding-left: 1.2em;/*アイコン分のスペース*/
+  line-height: 1.4;
+  color: #999
+}
+
+h4:before{ 
+  font-family: FontAwesome;/*忘れずに*/
+  content: "\f00c";/*アイコンのユニコード*/
+  position: absolute;/*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0;/*アイコンの位置*/
+  top: 0;/*アイコンの位置*/
+  color: #999; /*アイコン色*/
+}
