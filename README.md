@@ -9,3 +9,13 @@ Redux が次のボスです
 
 * Ruby version
 2.4.1
+
+## Get Started
+
+```
+yarn
+bin/webpack
+bundle install
+rails s
+```
+
