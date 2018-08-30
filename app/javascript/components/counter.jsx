@@ -26,18 +26,22 @@ export default class Counter extends Component {
   render() {
     return (
       <div>
-        <div>{this.state.count}</div>
-        <button onClick={this.handleUp}>+</button>
-        <button onClick={this.handleDown}>-</button>
+        <div>{this.props.count}</div>
+        <button onClick={this.props.onClickCountUp}>+</button>
+        <button onClick={this.props.onClickCountDown}>-</button>
       </div>
     )
   }
 }
 
-Counter.defaultProps = {
-  count: 0
-}
+// これもreduxで賄える
+// Counter.defaultProps = {
+//   count: 0
+// }
+
 
 Counter.PropTypes = {
-  count: PropTypes.number
+  count: PropTypes.number.isRequired,
+  onClickCountUp: PropTypes.func.isRequired,
+  onClickCountDown: PropTypes.func.isRequired
 }
