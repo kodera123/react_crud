@@ -14,7 +14,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     onClickCountUp: () => dispatch(countUp()),
-    onClickCountDwon: () => dispatch(countDown())
+    onClickCountDown: () => dispatch(countDown())
   }
 }
 

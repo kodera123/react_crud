@@ -50,6 +50,7 @@ export default class CreateMessage extends Component {
           <thead>
             <tr>
               <th>Text</th>
+              <th></th>
             </tr>
           </thead>
 
@@ -58,6 +59,7 @@ export default class CreateMessage extends Component {
               return (
                 <tr>
                   <td>{msg.text}</td>
+                  <td></td>
                 </tr>
               )
             })}
