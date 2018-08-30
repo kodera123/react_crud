@@ -2,25 +2,26 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 export default class Counter extends Component {
-  constructor(props) {
-    super(props)
+  // コンポーネントが自身の状態をstateに持つ時代は終わりを迎えました。
+  // constructor(props) {
+  //   super(props)
 
-    this.state = {
-      count: props.count
-    }
-  }
+  //   this.state = {
+  //     count: props.count
+  //   }
+  // }
 
-  handleUp = () => {
-    this.setState({
-      count: ++this.state.count
-    })
-  }
+  // handleUp = () => {
+  //   this.setState({
+  //     count: ++this.state.count
+  //   })
+  // }
 
-  handleDown = () => {
-    this.setState({
-      count: --this.state.count
-    })
-  }
+  // handleDown = () => {
+  //   this.setState({
+  //     count: --this.state.count
+  //   })
+  // }
 
   render() {
     return (
